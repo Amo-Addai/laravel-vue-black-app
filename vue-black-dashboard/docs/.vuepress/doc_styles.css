@@ -1,0 +1,62 @@
+body {
+  background: white;
+}
+
+.ct-documentation table {
+  width: 100%;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.15);
+  display: table;
+  margin: 0;
+  border-top: none;
+}
+.ct-documentation th {
+  padding: 10px;
+  border: none;
+}
+.ct-documentation tr {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+.ct-documentation thead tr {
+  border-top: none;
+}
+.ct-documentation tr:nth-child(2n) {
+  background: transparent;
+}
+.ct-documentation table.table thead tr th,
+.ct-documentation table.table tbody tr td {
+  border: none;
+  color: hsla(0, 0%, 100%, 0.7) !important;
+}
+.ct-documentation .demo-block {
+  margin-top: 30px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.ct-documentation .icon.outbound {
+  width: 12px;
+  heigth: 12px;
+}
+.ct-documentation pre code,
+.ct-documentation pre code .token {
+  line-height: 22px;
+  font-size: 14px !important;
+}
+.ct-documentation h1, .ct-documentation h2, .ct-documentation h3 {
+  padding-left: 1.25rem;
+  border-left: 2px solid #42b883;
+  padding-top: 12px !important;
+  padding-bottom: 0 !important;
+  border-bottom: 0;
+}
+.ct-documentation h1:hover .header-anchor, .ct-documentation h2:hover .header-anchor, .ct-documentation h3:hover .header-anchor {
+  opacity: 0;
+}
+
+.bd-docs div[class*=language-] .highlight-lines {
+  line-height: 1.6;
+}
+
+.bd-docs .sidebar {
+  background: #f5f6fa;
+  box-shadow: none;
+}/*# sourceMappingURL=doc_styles.css.map */
